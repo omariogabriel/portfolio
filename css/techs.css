@@ -1,0 +1,43 @@
+.techs {
+    padding: 0 1.5rem;
+    height: 50vh;
+    
+    margin: 30px 0;
+}
+
+.techs-title {
+    font-size: 35px;
+    font-family: "Krona One";
+    color: var(--azul-escuro);
+    text-align: center;
+}
+
+.techs-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.techs-item {
+    width: 80px;
+    position: relative;
+}
+
+.techs-item:last-child {
+    filter: grayscale(50%);
+}
+
+.teste {
+    position: absolute;
+    bottom: 45%;
+    left: 10%;
+    font-size: 12px;
+    font-family: "Poppins";
+    font-weight: 800;
+    color: var(--azul);
+    text-transform: uppercase;
+    text-align: center;
+}
+

@@ -1,0 +1,34 @@
+.home {
+    padding:0 1.5rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-title {
+    font-size: 64px;
+    font-weight: 800;
+    color: var(--azul-escuro);
+    font-family: "Krona One";
+}
+
+.home-text {
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: var(--azul-claro);
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.icon-home {
+    display: none;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 24px;
+}
