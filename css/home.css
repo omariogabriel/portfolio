@@ -7,14 +7,14 @@
 }
 
 .home-title {
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 800;
     color: var(--azul-escuro);
     font-family: "Krona One";
 }
 
 .home-text {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: "Poppins";
     font-weight: 500;
     color: var(--azul-claro);
@@ -31,4 +31,21 @@
     justify-content: center;
     gap: 25px;
     margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .icon-home {
+        display: block;
+        width: 250px;
+    }
+
+    .home {
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+    .social-media {
+        margin-top: 0;
+    }
 }
