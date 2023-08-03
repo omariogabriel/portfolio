@@ -5,6 +5,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: white;
+    border-bottom: 1px solid rgb(150, 150, 150, 0.33);
 }
 
 .logo {
@@ -52,7 +53,6 @@
     height: 47.5vh;
     width: 50vw;
     transition: .3s;
-    z-index: -1;
 }
 
 .active {
@@ -80,5 +80,52 @@
 
     .nav-list-item-link {
         color: var(--azul-claro);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        height: 8vh;
+        justify-content: space-around;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .logo::before, .logo::after {
+        font-size: 1.75rem;
+    }
+
+    .header-nav-list {
+        width: auto;
+        gap: 25px;
+    }
+
+    .nav-list-item-link {
+        position: relative;
+        transition: color 0.2s;
+        font-weight: 500;
+    }
+
+    .nav-list-item-link:hover {
+        color: var(--azul);
+    }
+    
+    .nav-list-item-link::after {
+        content: '';
+        width: 0%;
+        height: 1px;
+        background: var(--azul);
+      
+        position: absolute;
+        left: 0; 
+        bottom: -0.3rem;
+      
+        transition: width 0.2s;
+    }
+
+    .nav-list-item-link:hover::after {
+        width: 100%;
     }
 }

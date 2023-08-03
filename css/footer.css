@@ -1,0 +1,23 @@
+.footer {
+    height: 5vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border-top: 1px solid rgb(150, 150, 150, 0.33);
+    padding: 10px 0;
+}
+
+.footer-text {
+    font-size: 0.75rem;
+    color: var(--azul-claro);
+}
+.footer-social-media {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social-media-item {
+    width: 20px;
+}

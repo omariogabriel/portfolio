@@ -38,10 +38,10 @@
 }
 
 .techs-item:last-child {
-    filter: grayscale(50%);
+    filter: grayscale(75%);
 }
 
-.teste  {
+.studying  {
     position: absolute;
     bottom: 45%;
     left: 10%;
@@ -61,6 +61,43 @@
 
     .techs-text {
         width: 75%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .techs {
+        height: 500px;
+    }
+    .techs-title {
+        font-size: 4rem;
+    }
+
+    .techs-container {
+        height: 70%;
+        display: flex;
+    }
+
+    .techs-content {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .techs-text {
+        font-size: 1.125rem;
+        width: calc(50% - 48px);
+        margin-top: 40px;
+        border-right: 2px solid var(--azul);
+        padding-right: 30px;
+    }
+
+    .techs-item {
+        width: 100px;
+    }
+
+    .studying {
+        left: 17%;
     }
 }
 

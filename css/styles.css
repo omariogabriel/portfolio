@@ -15,10 +15,6 @@ body {
     overflow-x: hidden;
 }
 
-main {
-    position: absolute;
-    z-index: -2;
-}
 
 .divider {
     width: 100%;

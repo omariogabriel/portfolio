@@ -16,7 +16,7 @@
 .home-text {
     font-size: 1.25rem;
     font-family: "Poppins";
-    font-weight: 500;
+    font-weight: 600;
     color: var(--azul-claro);
     text-align: justify;
     margin-top: 15px;
@@ -47,5 +47,26 @@
 
     .social-media {
         margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .home {
+        height: 75vh;
+    }
+    .home-content {
+        width: calc(50% - 48px);
+        padding-left: 30px;
+    }
+
+    .home-container-icon {
+        width: calc(50% - 48px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon-home {
+        width: 350px;
     }
 }

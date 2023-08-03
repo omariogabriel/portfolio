@@ -47,7 +47,6 @@
 }
 
 .card-text {
-    font-weight: 500;
     font-size: 0.875rem;
     text-align: justify;
 }
@@ -80,5 +79,25 @@
     }
     .card {
         width: calc(45% - 48px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .projects-title {
+        font-size: 4rem;
+    }
+
+    .cards {
+        flex-wrap: nowrap;
+        margin-top: 50px;
+    }
+
+    .card {
+        width: calc(25% - 48px);
+    }
+
+    .deploy-button:hover, .repository-button:hover {
+        background-color: var(--azul-escuro);
+        transition: .5s;
     }
 }
