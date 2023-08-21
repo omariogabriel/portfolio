@@ -37,22 +37,6 @@
     position: relative;
 }
 
-.techs-item:last-child {
-    filter: grayscale(75%);
-}
-
-.studying  {
-    position: absolute;
-    bottom: 45%;
-    left: 10%;
-    font-size: 12px;
-    font-family: "Poppins";
-    font-weight: 800;
-    color: var(--azul);
-    text-transform: uppercase;
-    text-align: center;
-}
-
 @media screen and (min-width: 768px) {
     .techs-list {
         flex-direction: row;
@@ -94,10 +78,6 @@
 
     .techs-item {
         width: 100px;
-    }
-
-    .studying {
-        left: 17%;
     }
 }
 

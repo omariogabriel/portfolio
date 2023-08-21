@@ -48,6 +48,15 @@
     .social-media {
         margin-top: 0;
     }
+
+    .social-media-item-link{
+        transition: 0.2s;
+        display: inline-block;
+    }
+    
+    .social-media-item-link:hover {
+        transform: translateY(-8px);
+    }
 }
 
 @media screen and (min-width: 1024px) {
